@@ -1,4 +1,4 @@
-FROM r-base:3.4.1
+FROM r-base
 RUN apt-get update
 RUN apt-get install -y  libcurl4-gnutls-dev libxml2-dev
 RUN apt-get install -y libssl-dev
